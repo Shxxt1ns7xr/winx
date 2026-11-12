@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Winx Club | Fairies of Alfea</title>
+<meta name="description" content="An unofficial fan tribute to the Winx Club fairies, Seasons 1 to 3." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>:3</text>:3</svg>" />         <!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>:3</text></svg>" /> -->
+<link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Great+Vibes&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/vars.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="stage" aria-hidden="true"><div class="layer rainbow"></div></div>
+<canvas id="glitter" aria-hidden="true"></canvas>
+
+<button id="snd" class="snd off" aria-pressed="false" aria-label="Toggle magic sound">
+  <span class="spk"><img src="assets/speaker.webp" alt="" /></span>
+  <img class="wave" src="assets/wave.webp" alt="" />
+  <span class="snd-hint">Tap anywhere for magic sound</span>
+</button>
+<nav class="dots" aria-label="Fairies"></nav>
+
+<main>
+  <section class="hero" id="home">
+    <div class="logo"><div class="logo-in">
+      <img class="base" src="assets/logo.webp" alt="Winx Club" />
+      <img class="ghost r" src="assets/logo.webp" alt="" aria-hidden="true" />
+      <img class="ghost c" src="assets/logo.webp" alt="" aria-hidden="true" />
+    </div></div>
+    <div class="collage" role="img" aria-label="The Winx Club fairies in comic panels"></div>
+    <div class="hero-hint"><span>Scroll</span><i></i></div>
+  </section>
+
+  <section id="alfea">
+    <h2 class="a-title" aria-label="Fairies of Alfea"><span class="t1">Fairies</span><span class="t2">of Alfea</span></h2>
+    <div class="a-copy">
+      <p class="a-p1">Winx Club follows six young fairies at Alfea, a college in the Magic Dimension. Together they train, laugh, fall in love and protect their worlds from the Trix and darker threats.</p>
+      <p class="a-p2">Seasons 1 to 3 are where it all begins: the Winx form, grow into Charmix, then earn their Enchantix. Six fairies, six worlds, one friendship.</p>
+    </div>
+    <div class="a-row"></div>
+    <p class="a-hint">Tap a fairy to meet her</p>
+  </section>
+
+  <section class="outro" id="end">
+    <div class="card">
+      <h2>Thank you for visiting the Magic Dimension</h2>
+      <p>Six fairies, one friendship. Go back and meet any of them again.</p>
+      <div class="row"><button class="btn" data-end="fairies">Back to the fairies</button><button class="btn ghost" data-end="top">Back to the top</button></div>
+    </div>
+    <footer>
+      <p id="copy"></p>
+      <div class="row" id="legal-links"></div>
+    </footer>
+  </section>
+</main>
+
+<div class="scrim" id="scrim"></div>
+<aside class="panel" id="panel" aria-hidden="true"></aside>
+<dialog id="legal"></dialog>
+
+<script src="js/vendor/gsap.min.js"></script>
+<script src="js/vendor/ScrollTrigger.min.js"></script>
+<script src="js/vendor/ScrollToPlugin.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/sound.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
