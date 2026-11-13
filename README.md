@@ -44,17 +44,6 @@ js/vendor/          GSAP files
 assets/             cleaned artwork (transparent backgrounds) and backgrounds
 ```
 
-## Customise
-
-- Set your name for the copyright line (`owner`) and your contact email in `js/data.js`.
-- Edit fairy descriptions, colours and powers in `js/data.js`.
-- To swap an image, replace the file with the same name inside `assets/`.
-- Change the chords, notes and volume of the music in `js/sound.js`.
-
-## Publish on GitHub Pages
-
-Go to **Settings, then Pages**, choose the `main` branch and `/ (root)`, and click **Save**. The site goes live after a minute or two.
-
 ## Legal
 
 This is an unofficial, non-commercial fan project. It is not affiliated with, endorsed by or sponsored by Rainbow S.r.l., Nickelodeon, Paramount or Netflix.
